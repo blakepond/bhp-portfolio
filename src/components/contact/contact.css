@@ -1,0 +1,10 @@
+.c{
+    height: 100vh;
+    position: relative;
+}
+.c-bg{
+    width: 20px;
+    height: 100%;
+    background-color: #697A21;
+    position: absolute;
+}

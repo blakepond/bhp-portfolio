@@ -12,6 +12,8 @@
 }
 .i-right {
     flex:1;
+    background-color: black;
+    position:relative;
 }
 .i-left-wrapper {
     padding: 70px;
@@ -24,8 +26,8 @@
     font-size:50px;
 }
 .i-name {
-    font-size: 70px;
-    font:bold;
+    font-size: 80px;
+    font:bolder;
 }
 
 .i-title {
@@ -55,7 +57,25 @@
     height: 50px;
     font-size: 40px;
     font-weight:bold ;
-    color:#232020;
+    color:#697A21;
     display: flex;
     align-items: center;
+}
+.i-desc {
+    height: 50px;
+    font-size: 20px;
+}
+.i-image {
+   
+    height:100%;
+    position: absolute;
+}
+.i-bg {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #553739;
+    width:100%;
+    height: 100%;
+    position:absolute;
+    top:0;
+    right:0;
 }

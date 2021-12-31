@@ -1,5 +1,6 @@
 import React from "react";
 import "./intro.css";
+import Profile from '../../img/IMG_0437.png'
 
 const Intro = () => {
   return (
@@ -7,7 +8,7 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-left-wrapper">
           <h2 className="i-intro">Hello, my name is </h2>
-          <h1 className="i-name">Tony</h1>
+          <h1 className="i-name">Blake</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item">Web Developer</div>
@@ -17,10 +18,13 @@ const Intro = () => {
               <div className="i-title-item">Musician</div>
             </div>
           </div>
-          <div className="i-desc">Description of myself being myself because I'm fucking awesome and you should hire me immediately.</div>
+          <p className="i-desc">Description of myself being myself because I'm fucking awesome and you should hire me immediately.</p>
         </div>
       </div>
-      <div className="i-right">Right</div>
+      <div className="i-right">
+        <div className="i-bg"></div>
+          <img className="i-image" src={Profile} alt="" />
+      </div>
     </div>
   );
 };
