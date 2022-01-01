@@ -6,18 +6,18 @@ import {projects} from '../../data'
 const Projects = () => {
   return (
     <div className="p-l">
-      <div className="p-texts">
-        <h1 className="p-title"> Projects</h1>
-        <p className="p-desc">Description of Project</p>
-      </div>
-      <div className="p-list">
-        {projects.map(item=>(
-          <Project1 key={item.id} img={item.img} link={item.link} />
-        ))}
+    {/* //   <div className="p-texts">
+    //     <h1 className="p-title"> Projects</h1>
+    //     <p className="p-desc">Description of Project</p>
+    //   </div>
+    //   <div className="p-list">
+    //     {projects.map(item=>(
+    //       <Project1 key={item.id} img={item.img} link={item.link} />
+    //     ))}
       
-      </div>
+    //   </div> */}
     </div>
-  );
+  )
 };
 
 export default Projects;

@@ -7,18 +7,20 @@ const Intro = () => {
     <div className="i">
       <div className="i-left">
         <div className="i-left-wrapper">
-          <h2 className="i-intro">Hello, my name is </h2>
-          <h1 className="i-name">Blake</h1>
+          <h2 className="i-intro">Hello, I'm </h2>
+          <h3 className="i-name">blake pond</h3>
           <div className="i-title">
             <div className="i-title-wrapper">
-              <div className="i-title-item">Web Developer</div>
-              <div className="i-title-item">UI/UX Designer</div>
-              <div className="i-title-item">Mountain Man</div>
-              <div className="i-title-item">Entreprenuer</div>
-              <div className="i-title-item">Musician</div>
+              <div className="i-title-item">web developer</div>
+              <div className="i-title-item">ui/ux designer</div>
+              <div className="i-title-item">mountain man</div>
+              <div className="i-title-item">entrepreneur</div>
+              <div className="i-title-item">musician</div>
             </div>
           </div>
-          <p className="i-desc">Description of myself being myself because I'm fucking awesome and you should hire me immediately.</p>
+          <p className="i-desc">This is my personal brand.</p>
+          <p className="i-desc">Born in tech.</p>
+          <p className="i-q">What's the context?</p>
         </div>
       </div>
       <div className="i-right">

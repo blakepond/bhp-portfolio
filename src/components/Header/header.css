@@ -1,0 +1,9 @@
+.h-bg{
+    background-color: black;
+    height: 20px;
+}
+@media screen and (max-width: 480px){
+    .h-bg{
+        height: 10px;
+    }
+}

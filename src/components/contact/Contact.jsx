@@ -36,10 +36,10 @@ const Contact = () => {
   };
   return (
     <div className="c">
-      <div className="c-bg"></div>
+      <div className="c-bg"style={{ backgroundColor: darkMode && "white" }}></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Lets's discuss your project</h1>
+          <h1 className="c-title">Who to call?</h1>
           <div className="c-info">
             <div className="c-info-item">
               <img src={Email} alt="" className="c-icon" />

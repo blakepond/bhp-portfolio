@@ -7,6 +7,7 @@ import Projects from "./components/projectList/ProjectList";
 import TechStack from "./components/techStack/TechStack";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
+import Header from "./components/Header/Header";
 
 function App() {
   const theme = useContext(ThemeContext);
@@ -19,6 +20,7 @@ function App() {
         color: darkMode && "white",
       }}
     >
+      <Header/>
       <Toggle />
       <Intro />
       <About />
