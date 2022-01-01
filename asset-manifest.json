@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.22e6ce48.css",
-    "main.js": "/static/js/main.db1f7b86.js",
-    "static/media/blog.png": "/static/media/blog.e9edc0f5e19ef8b2fec5.png",
-    "static/media/ratemybuild.jpeg": "/static/media/ratemybuild.2c31beb3b8facc77d8d3.jpeg",
-    "static/media/IMG_0437.png": "/static/media/IMG_0437.fd23c315e67069da3c92.png",
-    "static/media/email-icon.png": "/static/media/email-icon.2341b359c41def7a9f54.png",
-    "index.html": "/index.html",
-    "main.22e6ce48.css.map": "/static/css/main.22e6ce48.css.map",
-    "main.db1f7b86.js.map": "/static/js/main.db1f7b86.js.map"
+    "main.css": "/bhp-portfolio/static/css/main.22e6ce48.css",
+    "main.js": "/bhp-portfolio/static/js/main.5b17e25b.js",
+    "static/media/blog.png": "/bhp-portfolio/static/media/blog.e9edc0f5e19ef8b2fec5.png",
+    "static/media/ratemybuild.jpeg": "/bhp-portfolio/static/media/ratemybuild.2c31beb3b8facc77d8d3.jpeg",
+    "static/media/IMG_0437.png": "/bhp-portfolio/static/media/IMG_0437.fd23c315e67069da3c92.png",
+    "static/media/email-icon.png": "/bhp-portfolio/static/media/email-icon.2341b359c41def7a9f54.png",
+    "index.html": "/bhp-portfolio/index.html",
+    "main.22e6ce48.css.map": "/bhp-portfolio/static/css/main.22e6ce48.css.map",
+    "main.5b17e25b.js.map": "/bhp-portfolio/static/js/main.5b17e25b.js.map"
   },
   "entrypoints": [
     "static/css/main.22e6ce48.css",
-    "static/js/main.db1f7b86.js"
+    "static/js/main.5b17e25b.js"
   ]
 }
