@@ -23,3 +23,12 @@
     justify-content: space-between;
     width: 100%;
 }
+
+@media screen and (max-width: 480px) {
+    .p-l{
+        padding: 10px;
+    }
+    .p-texts{
+        width: 100%;
+    }
+}

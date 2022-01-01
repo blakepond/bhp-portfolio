@@ -13,7 +13,6 @@ const About = () => {
             </div>
             <div className='a-right'>
                 <h1 className='a-title'>About me</h1>
-                <p className='a-sub'>Sub</p>
                 <p className='a-desc'>Description</p>
                
             </div>

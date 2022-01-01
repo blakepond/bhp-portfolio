@@ -10,7 +10,7 @@ const Project1 = ({img, link}) => {
                 <div className="pj-circle"></div>
                 <div className="pj-circle"></div>
             </div>
-            <a href={link} target="_blank" rel="norefferer" >
+            <a href={link} target="_blank" rel="noopener noreferrer">
                 <img src={img} alt="" className='pj-image'/>
             </a>
         </div>
