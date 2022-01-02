@@ -13,11 +13,11 @@ const About = () => {
       </div>
       <div className="a-right">
       <div className="a-bg"></div>
-          <h1 className="a-title">Who's the audience?</h1>
+          <h1 className="a-title">who's the audience?</h1>
           <p className="a-desc">
-            Tech.Development.Business.Law.Accounting.
+            Technicians.Business.Artists.Accountants.Designers.
             <br/>
-            Media.Entertainment.Artists.Musicians.Designers.
+            Media.Developers.Music.Entertainment.Law.Infracture.
             
           </p>
         <div className="a-bg">

@@ -6,6 +6,7 @@ import Email from "../../img/icons/email-icon.png";
 import Phone from "../../img/icons/phone-icon.png";
 import Twitter from "../../img/icons/twitter-icon.png";
 import LinkedIn from "../../img/icons/linkedin-icon.png";
+import Github from '../../img/icons/github-icon.png'
 import { ThemeContext } from "../../context";
 
 const Contact = () => {
@@ -39,16 +40,17 @@ const Contact = () => {
       <div className="c-bg"style={{ backgroundColor: darkMode && "white" }}></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Who to call?</h1>
+          <h1 className="c-title">Lets create it</h1>
           <div className="c-info">
+          <div className="c-info-item">
+              <img src={Phone} alt="" className="c-icon" />
+              208 557-1164
+            </div>
             <div className="c-info-item">
               <img src={Email} alt="" className="c-icon" />
               iweicollaborative@gmail.com
             </div>
-            <div className="c-info-item">
-              <img src={Phone} alt="" className="c-icon" />
-              208 557-1164
-            </div>
+         
             <div className="c-info-item">
               <a
                 style={{color: darkMode && "white"}} 
@@ -71,7 +73,17 @@ const Contact = () => {
                 @blake-pond
               </a>
             </div>
-            <div className="c-info-item"></div>
+            <div className="c-info-item">
+              <a
+              style={{color: darkMode && "white"}} 
+                href="https://www.github.com/blakepond"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={Github} alt="" className="c-icon" />
+                @blakepond
+              </a>
+            </div>
           </div>
         </div>
         <div className="c-right">
@@ -98,7 +110,7 @@ const Contact = () => {
               <textarea
                 style={{ backgroundColor: darkMode && "#333" }}
                 cols="30"
-                rows="10"
+                rows="8"
                 placeholder="Message"
                 name="message"
               />

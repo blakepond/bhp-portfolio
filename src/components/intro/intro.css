@@ -69,9 +69,9 @@
 .i-q{
     font-size: 40px;
     font-weight: bold;
-    padding: 10px;
-    /* width: 50%;
-    height: 50% */
+    /* padding: 10px; */
+    width: 50%;
+    height: 50%
 }
 .i-image {
    
@@ -102,7 +102,7 @@
         text-align: center;
         height: 100%
     }
-    .i-desc,.i-q{
+    .i-desc{
         display: none;
     }
 }

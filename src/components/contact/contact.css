@@ -88,11 +88,10 @@ a{
         margin-top: 0px;
         display: flex;
         flex-wrap: wrap;
-        padding-bottom: 10px;
     }
     input {
-        width: 30%;
-        height: 40px;
+        width: 25%;
+        height: 35px;
         margin: 10px;
         margin-left: 0;
     }
