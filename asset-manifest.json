@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/bhp-portfolio/static/css/main.22e6ce48.css",
-    "main.js": "/bhp-portfolio/static/js/main.5b17e25b.js",
+    "main.css": "/bhp-portfolio/static/css/main.d3e44203.css",
+    "main.js": "/bhp-portfolio/static/js/main.ec85f597.js",
     "static/media/blog.png": "/bhp-portfolio/static/media/blog.e9edc0f5e19ef8b2fec5.png",
     "static/media/ratemybuild.jpeg": "/bhp-portfolio/static/media/ratemybuild.2c31beb3b8facc77d8d3.jpeg",
     "static/media/IMG_0437.png": "/bhp-portfolio/static/media/IMG_0437.fd23c315e67069da3c92.png",
+    "static/media/github-icon.png": "/bhp-portfolio/static/media/github-icon.11202cd424b188e7d132.png",
     "static/media/email-icon.png": "/bhp-portfolio/static/media/email-icon.2341b359c41def7a9f54.png",
     "index.html": "/bhp-portfolio/index.html",
-    "main.22e6ce48.css.map": "/bhp-portfolio/static/css/main.22e6ce48.css.map",
-    "main.5b17e25b.js.map": "/bhp-portfolio/static/js/main.5b17e25b.js.map"
+    "main.d3e44203.css.map": "/bhp-portfolio/static/css/main.d3e44203.css.map",
+    "main.ec85f597.js.map": "/bhp-portfolio/static/js/main.ec85f597.js.map"
   },
   "entrypoints": [
-    "static/css/main.22e6ce48.css",
-    "static/js/main.5b17e25b.js"
+    "static/css/main.d3e44203.css",
+    "static/js/main.ec85f597.js"
   ]
 }
