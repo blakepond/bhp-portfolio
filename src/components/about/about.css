@@ -1,74 +1,77 @@
 .a {
-    height: 100vh;
-    display: flex;
-    align-items: center;
+   height: 100vh;
+   display: flex;
+   align-items: center;
 }
 .a-left {
-    flex:1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    height: 100%;
+   flex: 1;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   height: 100%;
 }
 .a-card.bg {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    background-color: #D7DEDC;
+   position: absolute;
+   top: 50px;
+   left: 50px;
+   background-color: #d7dedc;
 }
 .a-card {
-    width: 60%;
-    height: 70vh;
-    border-radius: 30px;
-    position: relative;
-    overflow:hidden;
+   width: 60%;
+   height: 70vh;
+   border-radius: 30px;
+   position: relative;
+   overflow: hidden;
 }
-.a-image{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+.a-image {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
 }
 .a-right {
-    flex:1;
-    /* display:flex; */
-    /* justify-content: end; */
+   flex: 1;
+   /* display: flex; */
+   /* justify-content: end; */
 }
-.a-bg{
-    clip-path: polygon(0 50%, 100% 100%, 100% 0);
-    background-color: #94849B;
-    opacity: 50%;
-    width:50%;
-    height: 50%;
-    z-index: 10;
-    position: absolute;
-    float: left;
-}
-.a-desc{
-    position: relative;
-    z-index:15;
+/* .a-bg {
+   clip-path: polygon(0 50%, 100% 100%, 100% 0);
+   background-color: #94849b;
+   opacity: 50%;
+   width: 50%;
+   height: 50%;
+   z-index: 10;
+   position: absolute;
+   float: left;
+} */
+.a-desc {
+   position: relative;
+   z-index: 15;
 }
 
-@media screen and (max-width: 480px){
-    .a{
-        flex-direction:column;
-        text-align: center;
-        margin-top: 50px;
-    }
-    .a-left {
-        width: 100%;
-    }
-    .a-card{
-        height: 30vh;
-    }
-    .a-card.bg{
-        display: none;
-    }
-    .a-right {
-        padding: 20px
-    }
-    .a-bg{
-        width: 97%;
-        
-    }
+@media screen and (max-width: 480px) {
+   .a {
+      flex-direction: column;
+      text-align: center;
+      min-width: 400px;
+   }
+   .a-title {
+      -webkit-text-size-adjust: auto;
+   }
+   .a-left {
+      width: 100%;
+   }
+   .a-card {
+      height: 30vh;
+   }
+   .a-card.bg {
+      display: none;
+   }
+   .a-desc {
+      inline-size: 350px;
+      overflow-wrap: break-word;
+   }
+   .a-bg {
+      width: 97%;
+   }
 }

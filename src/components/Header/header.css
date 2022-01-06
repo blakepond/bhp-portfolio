@@ -1,9 +1,10 @@
-.h-bg{
-    background-color: black;
-    height: 20px;
+.h-bg {
+   background-color: black;
+   width: 100%;
+   height: 20px;
 }
-@media screen and (max-width: 480px){
-    .h-bg{
-        height: 10px;
-    }
+@media screen and (max-width: 480px) {
+   .h-bg {
+      height: 10px;
+   }
 }
